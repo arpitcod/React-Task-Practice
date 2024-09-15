@@ -20,6 +20,16 @@ import FilterMultipleCriteria from './FilterTask/FilterMultipleCriteria';
 import FilterTxtInput from './FilterTask/FilterTxtInput';
 import SearchFilter from './FilterTask/SearchFilter';
 import SortAndFilter from './FilterTask/SortAndFilter';
+import BulletList from './loopTask/BulletList';
+import DropdownMenu from './loopTask/DropdownMenu';
+import GenerateBtns from './loopTask/GenerateBtns';
+import GeneratesLinks from './loopTask/GeneratesLinks';
+import ImageGallery from './loopTask/ImageGallery';
+import ItemList from './loopTask/ItemList';
+import NumberList from './loopTask/NumberList';
+import RenderTable from './loopTask/RenderTable';
+import TodoItems from './loopTask/TodoItems';
+import UserNames from './loopTask/UserNames';
 import ButtonTxt from './TurneryTask/ButtonTxt';
 import CartStatus from './TurneryTask/CartStatus';
 import DarkModeToggle from './TurneryTask/DarkModeToggle';
@@ -55,7 +65,7 @@ function App() {
   return (
     <div className="App">
        {/* <ProductStock quantity={0}/> */}
-     <DropdownConditionalDropdown />
+   
     </div>  
   );
 }
