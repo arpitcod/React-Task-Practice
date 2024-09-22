@@ -1,0 +1,13 @@
+
+.theme{
+    min-height: 100vh;
+}
+.theme .light{
+    background-color: aliceblue;
+    color: black;
+}
+
+.theme.dark{
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
